@@ -64,13 +64,14 @@
 }
 
 a {
-  color: #1772d0;
+  color: #4D74FF;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: white;
+  background-color: #4d74ffde;
   text-decoration: none;
 }
 
@@ -81,27 +82,31 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 24px
+  font-size: 20px;
+  line-height: 140%;
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .normal {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }  
 
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 24px;
+  color: #525252;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 24px;
+  color: #525252;
   font-weight: 800
 }
 
