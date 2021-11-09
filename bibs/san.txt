@@ -1,0 +1,9 @@
+@inproceedings{jin2020semantics,
+  title={Semantics-aligned representation learning for person re-identification},
+  author={Jin, Xin and Lan, Cuiling and Zeng, Wenjun and Wei, Guoqiang and Chen, Zhibo},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={34},
+  number={07},
+  pages={11173--11180},
+  year={2020}
+}

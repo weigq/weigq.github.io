@@ -1,0 +1,6 @@
+@article{wei2021toalign,
+    title={ToAlign: Task-oriented Alignment for Unsupervised Domain Adaptation},
+    author={Wei, Guoqiang and Lan, Cuiling and Zeng, Wenjun and Zhang, Zhizheng and Chen, Zhibo},
+    journal={Advances in Neural Information Processing Systems},
+    year={2021}
+}

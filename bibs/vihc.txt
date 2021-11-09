@@ -1,0 +1,10 @@
+@article{wei2019view,
+    title={View invariant 3d human pose estimation},
+    author={Wei, Guoqiang and Lan, Cuiling and Zeng, Wenjun and Chen, Zhibo},
+    journal={IEEE Transactions on Circuits and Systems for Video Technology},
+    volume={30},
+    number={12},
+    pages={4601--4610},
+    year={2019},
+    publisher={IEEE}
+}
