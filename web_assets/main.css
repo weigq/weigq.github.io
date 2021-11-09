@@ -148,9 +148,10 @@ h1 {
 
 .research-item-zoom-box {
   /*height: 600px;*/
-  text-align: left;
-  width: 75%;
+  text-align: center;
+  width: 60%;
   margin-left: 25%;
+  padding-left: 32px;
 }
 
 .zoom-video {
