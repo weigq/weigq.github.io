@@ -1,0 +1,6 @@
+@article{li2021CICF,
+  title={Confounder Identification-free Causal Visual Feature Learning},
+  author={Li, Xin and Zhang, Zhizheng and Wei, Guoqiang and Lan, Cuiling and Zeng, Wenjun and Jin, Xin and Chen, Zhibo},
+  journal={arXiv preprint arXiv:2111.13420},
+  year={2021}
+}

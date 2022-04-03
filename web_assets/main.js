@@ -1,52 +1,67 @@
 
 function zoomClickFunc() {
+    let intv = 4;
+    let anim = null;
+    let ratio = 0.
     let thisId = this.id.split('-').at(-1);
-    let zoomBoxContent = $("#zoom-box-content-" + thisId);
-    if (zoomBoxContent.css('opacity') === '0') {
-        $("#zoom-box-content-" + thisId).animate({'width': '100%', 'opacity': '1'}, 300);
-        $(this).html("<i class='fas fa-search-minus'></i>");
+    let zoomBoxContent = document.getElementById("zoom-box-content-" + thisId);
+    if (zoomBoxContent.style.opacity === '0') {
+        zoomBoxContent.style.opacity = '1';
+        ratio = 0;
+        clearInterval(anim);
+        anim = setInterval(() => {
+            if (ratio >= 100) {
+                clearInterval(anim);
+            }
+            else {
+                ratio += intv;
+                ratio = ratio > 100 ? 100 : ratio;
+                zoomBoxContent.style.width = ratio.toString() + '%';
+            }
+        }, 5);
+        this.innerHTML = "<i class='fas fa-search-minus'></i>";
     } else {
-        $("#zoom-box-content-" + thisId).animate({'width': '0', 'opacity': '0'}, 300);
-        $(this).html("<i class='fas fa-search-plus'></i>");
+        ratio = 100;
+        clearInterval(anim);
+        anim = setInterval(() => {
+            if (ratio <= 0) {
+                clearInterval(anim);
+                zoomBoxContent.style.opacity = '0';
+            }
+            else {
+                ratio -= intv;
+                ratio = ratio < 0 ? 0 : ratio;
+                zoomBoxContent.style.width = ratio.toString() + '%';
+            }
+        }, 5);
+        this.innerHTML = "<i class='fas fa-search-plus'></i>";
     }
 }
 
 function bibClickFunc () {
     let thisId = this.id.split('-').at(-1);
-    let bibBoxContent = $("#bib-box-content-" + thisId);
-    if (bibBoxContent.css('display') === 'none') {
+    let bibBoxContent = document.getElementById("bib-box-content-" + thisId);
+    if (bibBoxContent.style.display === 'none') {
         fetch('bibs/' + thisId + '.txt')
             .then(response => response.text())
             .then((data) => {
-                $("#bib-box-content-" + thisId).html(String(data));
+                bibBoxContent.innerHTML = String(data);
             })
-        $("#bib-box-content-" + thisId).slideToggle(300);
+        bibBoxContent.style.display = 'block';
     } else {
-        $("#bib-box-content-" + thisId).slideToggle(300);
+        bibBoxContent.style.display = 'none';
     }
 }
 
-function fillBib (el) {
-    let thisId = el.id.split('-').at(-1);
-    let bibBoxContent = $("#bib-box-content-" + thisId);
-    fetch('bibs/' + thisId + '.txt')
-        .then(response => response.text())
-        .then((data) => {
-            bibBoxContent.html(String(data));
-        })
-}
-
 window.onload = () => {
-    let zoomBtns = $(".zoom");
-    let bibBtns = $(".bibClick");
+    let zoomBtns = document.getElementsByClassName('zoom');
+    let bibBtns = document.getElementsByClassName('bibClick');
 
     // add a click function for each zoom button
     for (zoomBtn of zoomBtns)
         zoomBtn.onclick = zoomClickFunc;
 
-    for (let i = 0; i < bibBtns.length; i++) {
-        bibBtn = bibBtns[i];
-        fillBib(bibBtn);
+    // add a click function for each bibtex
+    for (bibBtn of bibBtns)
         bibBtn.onclick = bibClickFunc;
-    }
 }

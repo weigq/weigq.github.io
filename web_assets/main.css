@@ -113,7 +113,7 @@ h1 {
 }
 
 .research-item {
-  margin-bottom: 40px;
+  margin-bottom: 26px;
 }
 
 .research-item-first-row {
@@ -122,6 +122,7 @@ h1 {
 
 .research-item-left {
   width: 25%;
+  margin-top: 10px;
 }
 
 .research-item-left .thumbnail {
@@ -164,7 +165,7 @@ h1 {
 }
 
 .bibtex-block {
-  background: #e1e1e1;
+  background: #e1e1e1a8;
   padding: 1.5%;
   border-radius: 8px;
   font-family: monospace;
@@ -172,7 +173,7 @@ h1 {
 }
 
 .exp-body {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .exp-body .exp-item {
@@ -181,14 +182,14 @@ h1 {
 }
 
 .exp-item-left {
-  width: 25%;
+  width: 30%;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
 .exp-item-right {
-  width: 75%;
+  width: 70%;
   margin-left: 24px;
 }
 
@@ -199,6 +200,8 @@ h1 {
 }
 
 .footer {
+  margin-top: 100px;
+  margin-bottom: 20px;
   width: 100%;
   border-radius: 6px;
   text-align: center;
