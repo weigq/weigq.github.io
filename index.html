@@ -11,6 +11,7 @@
     <link rel='preload' href='https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css' as="style" onload="this.rel='stylesheet'">
     <link rel='preload' href='web_assets/main.css' as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="web_assets/main.js" as="script">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script type="text/javascript" src="web_assets/main.js"></script>
 </head>
 
@@ -25,20 +26,22 @@
     <div class="top-intro">
         <div class="top-intro-left">
             <p>
-                I am currently a fourth-year Ph.D. candidate at
-                University of Science and Technology of China <a href='https://ustc.edu.cn/'>(USTC)</a>, majoring in Electronic Enginerring
-                & Information Science (EEIS). I am involved in the joint Ph.D. program between USTC and
-                Microsoft Research Asia <a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/'>(MSRA)</a>, luckily advised by
-                <a href="https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=zh-CN">Yan Lu</a> (MSRA),
-                <a href='http://staff.ustc.edu.cn/~chenzhibo'>Prof. Zhibo Chen</a> (USTC) and <a href='https://www.microsoft.com/en-us/research/people/wezeng/'>Wenjun Zeng</a> (EIAS).
+                I am currently a final year Ph.D. candidate at
+                <a href='https://ustc.edu.cn/'>University of Science and Technology of China (USTC)</a>, majoring in Electronic Enginerring
+                & Information Science (EEIS).
+                <br>
+                I am involved in the joint Ph.D. program between USTC and
+                <a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/'>Microsoft Research Asia (MSRA)</a>, luckily advised by
+                <a href="https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=zh-CN">Yan Lu</a> (<img src='images/microsoft-mini.svg' width='18px' style="vertical-align: initial">),
+                <a href='https://www.microsoft.com/en-us/research/people/wezeng/'>Prof. Wenjun Zeng</a> (<img src='images/microsoft-mini.svg' width='18px' style="vertical-align: initial">) and
+                <a href='http://staff.ustc.edu.cn/~chenzhibo'>Prof. Zhibo Chen</a> (<img src='images/ustc.png' width='24px' style="vertical-align: text-top">).
 <!--                Before that, I received my B.Eng from USTC in 2018.-->
                 I collaborate closely with <a href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en">Zhizheng Zhang</a> and
                 <a href='https://scholar.google.com/citations?user=XZugqiwAAAAJ&hl=en'>Cuiling Lan</a>
                 during my internship at Intelligent Multimedia group (IM), MSRA.
                 <br>
                 <br>
-                My research interests are in computer vision and machine learning. I am particularly interested in the areas of domain adaptation/gerneralization, transfer learning, and
-                pose estimation.
+                My research interests are in computer vision, particularly in the areas of domain adaptation/gerneralization, transfer learning, vision backbone and pose estimation.
             </p>
         </div>
         <div class="top-intro-right">
@@ -72,9 +75,13 @@
                         </div>
                     </div>
                     <div class="research-item-right">
-                        <div class="paper-title">ActiveMLP: An MLP-like Architecture with Active Token Mixer</div>
+                        <div class="paper-title">Active Token Mixer</div>
                         <div class='authors-normal'><strong>Guoqiang Wei</strong>, Zhizheng Zhang, Cuiling Lan, Yan Lu, Zhibo Chen</div>
-                        <div class='public' style="font-weight: normal">Arxiv 2022</div>
+                        <div>
+                            <span class="venue">AAAI 2023</span>
+                            <span class="feature">Vision Backbone</span>
+                            <span class="feature">MLP</span>
+                        </div>
                         <a href='https://arxiv.org/abs/2203.06108'>[arXiv]</a>
                         <div style='cursor:pointer;display:inline-block;' class='bibClick' id="bibclick-activemlp"><a>[bibtex]</a></div>
                         <a href='https://github.com/microsoft/ActiveMLP'>[code]</a>
@@ -103,7 +110,10 @@
                     <div class="research-item-right">
                         <div class="paper-title">Confounder Identification-free Causal Visual Feature Learning</div>
                         <div class='authors-normal'>Xin Li, Zhizheng Zhang, <strong>Guoqiang Wei</strong>, Cuiling Lan, Wenjun Zeng, Xin Jin, Zhibo Chen</div>
-                        <div class='public' style="font-weight: normal">Arxiv 2022</div>
+                        <div>
+                            <span class="feature">Causal Inference</span>
+                            <span class="feature">Domain Generalization</span>
+                        </div>
                         <a href='https://arxiv.org/abs/2111.13420'>[arXiv]</a>
                         <div style='cursor:pointer;display:inline-block;' class='bibClick' id="bibclick-cicf"><a>[bibtex]</a></div>
 <!--                        <a href='https://github.com/microsoft/UDA'>[code]</a>-->
@@ -132,7 +142,10 @@
                     <div class="research-item-right">
                         <div class="paper-title">ToAlign: Task-Oriented Alignment for Unsupervised Domain Adaptation</div>
                         <div class='authors-normal'><strong>Guoqiang Wei</strong>, Cuiling Lan, Wenjun Zeng, Zhizheng Zhang, Zhibo Chen</div>
-                        <div class='public'>NeurIPS 2021</div>
+                        <div>
+                            <span class="venue">NeurIPS 2021</span>
+                            <span class="feature">Domain Adaptation</span>
+                        </div>
                         <a href='https://arxiv.org/abs/2106.10812'>[arXiv]</a>
                         <div style='cursor:pointer;display:inline-block;' class='bibClick' id="bibclick-toalign"><a>[bibtex]</a></div>
                         <a href='https://github.com/microsoft/UDA'>[code]</a>
@@ -163,7 +176,11 @@
                     <div class="research-item-right">
                         <div class="paper-title">MetaAlign: Coordinating Domain Alignment and Classification for Unsupervised Domain Adaptation</div>
                         <div class='authors-normal'><strong>Guoqiang Wei</strong>, Cuiling Lan, Wenjun Zeng, Zhibo Chen</div>
-                        <div class='public'>CVPR 2021</div>
+                        <div>
+                            <span class="venue">CVPR 2021</span>
+                            <span class="feature">Domain Adaptation</span>
+                            <span class="feature">Meta Learning</span>
+                        </div>
                         <a href='https://arxiv.org/abs/2103.13575'>[arXiv]</a>
                         <div style='cursor:pointer;display:inline-block;' class='bibClick' id="bibclick-metaalign"><a>[bibtex]</a></div>
                         <a href='https://github.com/microsoft/UDA'>[code]</a>
@@ -192,9 +209,13 @@
                         </div>
                     </div>
                     <div class="research-item-right">
-                        <div class="paper-title">Semantics-Aligned Representation Learning for Person Re-identification</div>
+                        <div class="paper-title">Semantics-Aligned Representation Learning for Person Re-Identification</div>
                         <div class='authors-normal'>Xin Jin, Cuiling Lan, Wenjun Zeng, <strong>Guoqiang Wei</strong>, Zhibo Chen</div>
-                        <div class='public'>AAAI 2020</div>
+                        <div>
+                            <span class="venue">AAAI 2020</span>
+                            <span class="feature">ReID</span>
+                            <span class="feature">3D Reconstruction</span>
+                        </div>
                         <a href='https://arxiv.org/abs/1905.13143'>[arXiv]</a>
                         <div style='cursor:pointer;display:inline-block;' class='bibClick' id="bibclick-san"><a>[bibtex]</a></div>
                         <a href='https://github.com/microsoft/Semantics-Aligned-Representation-Learning-for-Person-Re-identification'>[code]</a>
@@ -223,7 +244,11 @@
                     <div class="research-item-right">
                         <div class="paper-title">View Invariant 3d Human Pose Estimation</div>
                         <div class='authors-normal'><strong>Guoqiang Wei</strong>, Cuiling Lan, Wenjun Zeng, Zhibo Chen</div>
-                        <div class='public'>IEEE Trans. on CSVT 2019</div>
+                        <div>
+                            <span class="venue">TCSVT 2019</span>
+                            <span class="feature">3D Pose Estimation</span>
+                            <span class="feature">GAN</span>
+                        </div>
                         <a href='https://arxiv.org/abs/1901.10841'>[arXiv]</a>
                         <div style='cursor:pointer;display:inline-block;' class='bibClick' id="bibclick-vihc"><a>[bibtex]</a></div>
                     </div>
@@ -249,7 +274,7 @@
                 </div>
                 <div class="exp-item-right">
                     <div class="exp-item-right-content">
-                        <span>2014-09~2018-06:</span>&nbsp Bachelor in Electrical Engineering at USTC
+                        <span>2014-09~2018-06:</span>&nbsp Bachelor in EE at USTC
                     </div>
                 </div>
             </div>
@@ -275,7 +300,6 @@
             </div>
         </div>
     </div>
-
     <div class="exp-body" style="padding-bottom: 0">
         <h1>Professional Activities</h1>
         <div class="h-line"></div>
@@ -286,13 +310,10 @@
                         Reviewer: &nbsp&nbsp&nbsp&nbsp&nbsp ECCV, CVPR, AAAI
                     </div>
                     <div>
-                        Reviewer: &nbsp&nbsp&nbsp&nbsp&nbsp International Journal of Computer Vision (IJCV)
+                        Reviewer: &nbsp&nbsp&nbsp&nbsp&nbsp IJCV, TCSVT
                     </div>
                     <div>
-                        Reviewer: &nbsp&nbsp&nbsp&nbsp&nbsp IEEE/CAA Journal of Automatica Sinica (JAS)
-                    </div>
-                    <div>
-                        Reviewer: &nbsp&nbsp&nbsp&nbsp&nbsp  APSIPA
+                        Reviewer: &nbsp&nbsp&nbsp&nbsp&nbsp JAS, APSIPA
                     </div>
                     <div>
                         Invited talk: &nbsp  AI Time NeurIPS 2021 [<a href="https://www.bilibili.com/video/BV1aR4y157xp?spm_id_from=333.999.0.0">video</a>]
@@ -304,14 +325,14 @@
             </div>
         </div>
     </div>
-
     <div class="exp-body">
         <h1>Misc</h1>
         <div class="h-line"></div>
         <div class="exp-content">
-            <div class="exp-item">
-                <div class="exp-item-left" style="text-align: left">
-                    <a href="https://github.com/microsoft/ActiveMLP"><i class='fab fa-github fa-sm' title='Github'></i> ActiveMLP</a>
+            <div class="exp-item" style="margin-bottom: 20px">
+                <div class="exp-item-left" style="text-align: left; display: inline; width: 35%">
+                    <a href="https://github.com/microsoft/ActiveMLP">ActiveMLP</a>
+                    <a class="github-button" href="https://github.com/Microsoft/ActiveMLP" data-show-count="true" data-icon="octicon-star" aria-label="Star Microsoft/ActiveMLP on GitHub"></a>
                 </div>
                 <div class="exp-item-right">
                     <div class="exp-item-right-content">
@@ -319,9 +340,10 @@
                     </div>
                 </div>
             </div>
-            <div class="exp-item">
-                <div class="exp-item-left" style="text-align: left">
-                    <a href="https://github.com/weigq/3d_pose_baseline_pytorch"><i class='fab fa-github fa-sm' title='Github'></i> 3d_pose</a>
+            <div class="exp-item" style="margin-bottom: 20px">
+                <div class="exp-item-left" style="text-align: left; display: inline; width: 35%">
+                    <a href="https://github.com/weigq/3d_pose_baseline_pytorch">3d_pose</a>
+                    <a class="github-button" href="https://github.com/weigq/3d_pose_baseline_pytorch" data-show-count="true" data-icon="octicon-star" aria-label="Star weigq/3d_pose_baseline_pytorch on GitHub"></a>
                 </div>
                 <div class="exp-item-right">
                     <div class="exp-item-right-content">
@@ -329,9 +351,10 @@
                     </div>
                 </div>
             </div>
-            <div class="exp-item">
-                <div class="exp-item-left" style="text-align: left">
-                    <a href="https://github.com/microsoft/UDA"><i class='fab fa-github fa-sm' title='Github'></i> UDA</a>
+            <div class="exp-item" style="margin-bottom: 20px">
+                <div class="exp-item-left" style="text-align: left; display: inline; width: 35%">
+                    <a href="https://github.com/microsoft/UDA">UDA</a>
+                    <a class="github-button" href="https://github.com/microsoft/UDA" data-show-count="true" data-icon="octicon-star" aria-label="Star microsoft/UDA on GitHub"></a>
                 </div>
                 <div class="exp-item-right">
                     <div class="exp-item-right-content">
@@ -339,9 +362,21 @@
                     </div>
                 </div>
             </div>
-            <div class="exp-item">
-                <div class="exp-item-left" style="text-align: left; display: inline">
-                    <a href="https://guoqiangwei.xyz/iclr2022_stats/iclr2022_submissions.html"><i class="fas fa-external-link-alt"></i> iclr2022_stats</a>
+            <div class="exp-item" style="margin-bottom: 20px">
+                <div class="exp-item-left" style="text-align: left; display: inline; width: 35%">
+                    <a href="https://guoqiangwei.xyz/iclr2023_stats/iclr2023_submissions.html">iclr2023_stats</a>
+                    <a class="github-button" href="https://github.com/weigq/iclr2023_stats" data-show-count="true" data-icon="octicon-star" aria-label="Star weigq/iclr2023_stats on GitHub"></a>
+                </div>
+                <div class="exp-item-right">
+                    <div class="exp-item-right-content">
+                        Statistics of ICLR 2023 submissions.
+                    </div>
+                </div>
+            </div>
+            <div class="exp-item" style="margin-bottom: 20px">
+                <div class="exp-item-left" style="text-align: left; display: inline; width: 35%">
+                    <a href="https://guoqiangwei.xyz/iclr2022_stats/iclr2022_submissions.html">iclr2022_stats</a>
+                    <a class="github-button" href="https://github.com/weigq/iclr2022_stats" data-show-count="true" data-icon="octicon-star" aria-label="Star weigq/iclr2022_stats on GitHub"></a>
                 </div>
                 <div class="exp-item-right">
                     <div class="exp-item-right-content">
@@ -349,9 +384,10 @@
                     </div>
                 </div>
             </div>
-            <div class="exp-item">
-                <div class="exp-item-left" style="text-align: left; display: inline">
-                    <a href="https://guoqiangwei.xyz/neurips2021_stats/neurips2021_submissions.html"><i class="fas fa-external-link-alt"></i> neurips2021_stats</a>
+            <div class="exp-item" style="margin-bottom: 20px">
+                <div class="exp-item-left" style="text-align: left; display: inline; width: 35%">
+                    <a href="https://guoqiangwei.xyz/neurips2021_stats/neurips2021_submissions.html">neurips2021_stats</a>
+                    <a class="github-button" href="https://github.com/weigq/neurips2021_stats" data-show-count="true" data-icon="octicon-star" aria-label="Star weigq/neurips2021_stats on GitHub"></a>
                 </div>
                 <div class="exp-item-right">
                     <div class="exp-item-right-content">
@@ -359,8 +395,8 @@
                     </div>
                 </div>
             </div>
-            <div class="exp-item">
-                <div class="exp-item-left" style="text-align: left; display: inline">
+            <div class="exp-item" style="margin-bottom: 20px">
+                <div class="exp-item-left" style="text-align: left; display: inline; width: 35%">
                     <img src='images/openreview.png' width='15%'>
                 </div>
                 <div class="exp-item-right">

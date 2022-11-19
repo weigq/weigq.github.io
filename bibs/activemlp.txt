@@ -1,6 +1,6 @@
-@article{wei2022ActiveMLP,
-  title={ActiveMLP: An MLP-like Architecture with Active Token Mixer},
-  author={Wei, Guoqiang and Zhang, Zhizheng and Lan, Cuiling and Lu, Yan and Chen, Zhibo},
-  journal={arXiv preprint arXiv:2203.06108},
-  year={2022}
+@inproceedings{wei2022ActiveMLP,
+    title={Active Token Mixer},
+    author={Wei, Guoqiang and Zhang, Zhizheng and Lan, Cuiling and Lu, Yan and Chen, Zhibo},
+    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+    year={2023}
 }

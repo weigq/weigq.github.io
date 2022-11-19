@@ -178,7 +178,7 @@ h1 {
 
 .exp-body .exp-item {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .exp-item-left {
@@ -227,22 +227,23 @@ a:hover {
 }
 
 .paper-title {
-  font-size: 22px;
+  font-size: 20px;
   color: var(--my-font-gray);
   font-weight: 600;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .authors-normal {
   font-size: 18px;
   color: var(--my-font-gray);
+  padding-bottom: 4px;
 }
 
 .public {
   font-size: 18px;
   color: var(--my-font-gray);
   font-weight: 600;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 
 .authors-normal strong {
@@ -326,10 +327,28 @@ span.highlight {
     border-radius: 6px;
 }
 
-
 .search {
     font-family: 'Noto Sans', Verdana, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 140%;
     color: #4d74ffdb;
+}
+
+span:is(.venue) {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgba(79, 205, 171, 0.9);
+  padding: 1px 6px;
+  border-radius: 4px;
+  color: white;
+  margin-right: 6px;
+}
+
+span:is(.feature) {
+  font-size: 16px;
+  background-color: rgb(180, 180, 180);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: white;
+  margin-right: 6px;
 }
