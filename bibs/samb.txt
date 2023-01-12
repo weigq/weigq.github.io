@@ -1,0 +1,6 @@
+@article{li2022semantic,
+  title={Semantic-aware Message Broadcasting for Efficient Unsupervised Domain Adaptation},
+  author={Li, Xin and Lan, Cuiling and Wei, Guoqiang and Chen, Zhibo},
+  journal={arXiv preprint arXiv:2212.02739},
+  year={2022}
+}

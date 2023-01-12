@@ -337,7 +337,17 @@ span.highlight {
 span:is(.venue) {
   font-size: 16px;
   font-weight: 600;
-  background-color: rgba(79, 205, 171, 0.9);
+  background-color: #4571ffe3;
+  padding: 1px 6px;
+  border-radius: 4px;
+  color: white;
+  margin-right: 6px;
+}
+
+span:is(.oral) {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #fc5cc0;
   padding: 1px 6px;
   border-radius: 4px;
   color: white;
