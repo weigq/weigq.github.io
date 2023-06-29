@@ -1,6 +1,12 @@
-@inproceedings{wei2022ActiveMLP,
-    title={Active Token Mixer},
-    author={Wei, Guoqiang and Zhang, Zhizheng and Lan, Cuiling and Lu, Yan and Chen, Zhibo},
-    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-    year={2023}
+@article{wei2022ActiveMLP, 
+    title={Active Token Mixer}, 
+    volume={37}, 
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/25376}, 
+    DOI={10.1609/aaai.v37i3.25376}, 
+    number={3}, 
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+    author={Wei, Guoqiang and Zhang, Zhizheng and Lan, Cuiling and Lu, Yan and Chen, Zhibo}, 
+    year={2023},    
+    month={Jun.}, 
+    pages={2759-2767} 
 }
